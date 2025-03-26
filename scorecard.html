@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Match Scorecard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    .scorecard {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    h2, h3 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #007BFF;
+      color: white;
+    }
+    .match-info {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="scorecard">
+  <div class="match-info">
+    <div class="button-group">
+        <button id="current-match-btn">Current Match ScoreCard</button>
+    </div>
+    <h2>India vs Australia</h2>
+    <p>Venue: Melbourne Cricket Ground</p>
+    <p>Status: India won by 5 wickets</p>
+  </div>
+
+  <div class="section">
+    <h3></h3>
+    <p></p>
+    <table id = "teamOneBatting">
+      <thead>
+        <tr>
+          <th>Batsman</th>
+          <th>Runs</th>
+          <th>Balls</th>
+          <th>4s</th>
+          <th>6s</th>
+          <th>Strike Rate</th>
+          <th>Out By</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <h3></h3>
+    <table id = "teamTwoBowling">
+      <thead>
+        <tr>
+          <th>Bowler</th>
+          <th>Overs</th>
+          <th>Maidens</th>
+          <th>Runs</th>
+          <th>Wickets</th>
+          <th>Economy</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
