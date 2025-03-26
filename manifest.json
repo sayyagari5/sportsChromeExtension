@@ -1,0 +1,11 @@
+{
+    "name": "Upcoming Cricket Matches",
+    "version": "1.0.0",
+    "description": "This is an extension to display upcoming cricket matches",
+    "manifest_version":3,
+    "author":"Sunaina Ayyagari",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Upcoming Cricket Matches"
+    }
+}
